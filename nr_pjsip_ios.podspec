@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'pjsip build for ios'
   s.description      = <<-DESC
-  为iOS构建的pjsip
+                        为 iOS 构建的pjsip, 使用webrtc
                        DESC
 
   s.homepage         = 'http://www.pjsip.org'
@@ -19,6 +19,9 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'NicoRobine' => '472150631@qq.com' }
   s.source           = { :git => 'https://github.com/nicorobine/NRPJSIP.git', :tag => s.version.to_s }
+  
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.static_framework = true
   s.libraries      = 'stdc++'
