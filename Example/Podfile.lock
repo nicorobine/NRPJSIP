@@ -1,0 +1,16 @@
+PODS:
+  - nr_pjsip_ios (0.1.0)
+
+DEPENDENCIES:
+  - nr_pjsip_ios (from `../`)
+
+EXTERNAL SOURCES:
+  nr_pjsip_ios:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  nr_pjsip_ios: e302d4998e254ed4f08922005efe6318133dc4c6
+
+PODFILE CHECKSUM: 79c30b0ae1da793384e603f925051994356482f0
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'nr_pjsip_ios_Example' do
+  
+  use_frameworks!
+  use_modular_headers!
+  
+  pod 'nr_pjsip_ios', :path => '../'
+
+  target 'nr_pjsip_ios_Tests' do
+    inherit! :search_paths
+    
+  end
+end
