@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'nr_pjsip_ios'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'pjsip build for ios'
   s.description      = <<-DESC
                         为 iOS 构建的pjsip, 使用webrtc
