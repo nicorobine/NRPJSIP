@@ -1,5 +1,5 @@
 PODS:
-  - nr_pjsip_ios (0.1.0)
+  - nr_pjsip_ios (0.2.0)
 
 DEPENDENCIES:
   - nr_pjsip_ios (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  nr_pjsip_ios: 31ff741e3280adff1c196372d15f97c3b938fb8e
+  nr_pjsip_ios: 18eeba3ff84c76163b262b81c1f6f30db3542b9b
 
 PODFILE CHECKSUM: 79c30b0ae1da793384e603f925051994356482f0
 

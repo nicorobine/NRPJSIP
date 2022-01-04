@@ -359,7 +359,7 @@
     #define PJSUA_MAX_BUDDIES			32
 
     #define PJ_HAS_SSL_SOCK 1
-    #define PJ_SSL_SOCK_IMP PJ_SSL_SOCK_IMP_APPLE
+    #define PJ_SSL_SOCK_IMP PJ_SSL_SOCK_IMP_DARWIN
 
 #endif
 
